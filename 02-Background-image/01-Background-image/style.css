@@ -12,5 +12,10 @@ html { box-sizing: border-box; }
 
 /* ------------------------------------ */
 
-
+.box{
+	background-image: url("images/siroke.jpg");
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+}
 
