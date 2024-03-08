@@ -21,3 +21,36 @@
 
 /* ---------------------------------------------------- */
 /* ZDE NAPIŠ VLASTNÍ CSS */
+
+.kontejner{
+    display: flex;
+}
+
+.ctverecek{
+    text-align: center;
+    padding: 30px;
+}
+
+.prvni{
+    flex-basis: 25%;
+    flex-shrink: 0;
+    order: 3;
+}
+
+.druhy{
+    flex-basis: 25%;
+    flex-shrink:0;
+    order: 1;
+}
+
+.treti{
+    flex-basis: 25%;
+    flex-shrink: 0;
+    order: 4;
+}
+
+.ctvrty{
+    flex-basis: 25%;
+    flex-shrink: 0;
+    order: 2;
+}

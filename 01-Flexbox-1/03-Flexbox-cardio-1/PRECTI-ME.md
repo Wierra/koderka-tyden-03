@@ -13,4 +13,4 @@ Tvým ukolem je použít flexbox a hezky naskládat barevné obdélníky vedle s
 Zachraň království, jsi naše jediná naděje!
 
 S pozdravem,
-Tvůj moudrý rádce.
+Tvůj moudrý rádce

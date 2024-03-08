@@ -17,6 +17,57 @@
     padding: 10px;
     border: 1px dashed red;
     background-color: #ffffcc;
+    /* display: flex; */
 }
 
 /* ---------------------------------------------------- */
+.kontejner{
+    display: flex; 
+}
+
+/* .druhy{
+    flex-grow: 1;
+}
+
+.treti{
+    flex-grow: 1;
+} */
+
+/* .ctverecek{
+    flex-basis: 25%;
+    text-align: center;
+} */
+
+/*  VÝCHOZÍ NASTAVENÍ
+flex-grow: 0;       roztahování
+flex-shring: 1;     smrskávání
+flex-basis: auto;   podle obsahu
+*/
+
+
+/* .prvni{
+    flex-basis: 300px;
+    flex-shrink: 0;
+    flex: 0 0 300px;
+}
+
+.druhy{
+    flex-basis: 80%;
+    flex-shrink: 1;
+
+} */
+
+.prvni{
+    order:2;
+}
+.druhy{
+    order: 1;
+}
+
+.treti{
+    order: 4;
+}
+
+.ctvrty{
+    order: 3;
+}
